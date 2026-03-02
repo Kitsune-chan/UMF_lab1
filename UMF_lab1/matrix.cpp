@@ -35,6 +35,7 @@ void build_problem(const std::vector<double>& x_coords,
 
             if (btype == -1) {
                 d0[idx] = 1.0;
+                b[idx] = 0.0;
                 continue;
             }
 
